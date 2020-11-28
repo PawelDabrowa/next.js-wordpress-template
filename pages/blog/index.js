@@ -33,7 +33,7 @@ const Blog = ({ allPosts: { edges } }) => (
               <h2>{node.title}</h2>
               {/* <p>{node.acfPostInfo.author}</p> */}
               <Link href={`/blog/${node.slug}`}>
-                <a>Read more ></a>
+                <a>Read more --></a>
               </Link>
             </div>
           </div>
